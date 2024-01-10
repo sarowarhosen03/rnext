@@ -33,6 +33,7 @@ export default function TaskBoard() {
                     return task;
                 })
             );
+            setTaskToUpdate(null);
         }
 
         setShowAddModal(false);
